@@ -18,10 +18,14 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Qualidade De Vida"
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/centerDEUS"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="D.E.U.S"
+            android:textColor="@color/white"
+            android:imeActionLabel="DESENVOLVIMENTO EDUCACIONAL UNICO DE SAÚDE"
+            android:background="@drawable/backgroundbutton"
 
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -29,8 +33,66 @@
             app:layout_constraintBottom_toBottomOf="parent"
             />
 
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="SONO"
+            android:background="@drawable/backgroundbutton"
+            android:textColor="@color/white"
+            android:imeActionLabel="DESENVOLVIMENTO EDUCACIONAL UNICO DE SAÚDE"
+
+
+            app:layout_constraintCircle="@+id/centerDEUS"
+            app:layout_constraintCircleAngle="65"
+            app:layout_constraintCircleRadius="100dp"
+            app:layout_constraintTop_toTopOf="@+id/centerDEUS"
+            app:layout_constraintStart_toEndOf="@+id/centerDEUS"
+
+
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="ATIVIDADE FISICA"
+            android:background="@drawable/backgroundbutton"
+            android:textColor="@color/white"
+            android:imeActionLabel="DESENVOLVIMENTO EDUCACIONAL UNICO DE SAÚDE"
+
+
+            app:layout_constraintCircle="@+id/centerDEUS"
+            app:layout_constraintCircleAngle="180"
+            app:layout_constraintCircleRadius="100dp"
+            app:layout_constraintTop_toTopOf="@+id/centerDEUS"
+            app:layout_constraintStart_toEndOf="@+id/centerDEUS"
+
+
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="ALIMENTAÇÃO"
+            android:background="@drawable/backgroundbutton"
+            android:textColor="@color/white"
+            android:imeActionLabel="DESENVOLVIMENTO EDUCACIONAL UNICO DE SAÚDE"
+
+
+            app:layout_constraintCircle="@+id/centerDEUS"
+            app:layout_constraintCircleAngle="290"
+
+            app:layout_constraintCircleRadius="100dp"
+            app:layout_constraintTop_toTopOf="@+id/centerDEUS"
+            app:layout_constraintStart_toEndOf="@+id/centerDEUS"
+
+
+            />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
